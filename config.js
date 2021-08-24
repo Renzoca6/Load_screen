@@ -16,14 +16,14 @@
 config.language = "english"
 
 // Use an image for the logo instead of text
-config.logo_use_image = true
+config.logo_use_image = false
 
 // Image filename for the server logo
 // (Place the image file in the images folder)
-config.logo_image = "logo.png"
+config.logo_image = "quimeralogo.png"
 
 // Text to be shown on logo
-config.logo_text = "SleekLoad"
+config.logo_text = ""
 
 // Use the server's name for the logo
 config.logo_servername = false
@@ -34,12 +34,12 @@ config.logo_center = false
 
 // Display current map and gamemode?
 // "true" or "false"
-config.logo_show_info = true
+config.logo_show_info = false
 
 // Use a video for the background?
 // Otherwise it will use images
 // "true" or "false"
-config.background_use_video = true
+config.background_use_video = false
 
 // Default available videos:
 // "blue_rays.webm"
@@ -65,9 +65,10 @@ config.background_map_based = false
 // Multiple images will automatically shuffle between them
 // (Place the image files in the backgrounds/images folder)
 config.background_images = [
-	"background1.jpg",
-	"background2.jpg",
-	"background3.jpg",
+	"background1.png",
+	"background2.png",
+	"background3.png",
+        "background4.png",
 ]
 
 // (Image-background only)
@@ -78,12 +79,12 @@ config.background_images_random_order = true
 // (Image-background only)
 // Delay between background images changes
 // in milliseconds
-config.background_images_duration = 5000
+config.background_images_duration = 30000
 
 // (Image-background only)
 // Image background fade duration
 // in milliseconds
-config.background_images_fade_duration = 2000
+config.background_images_fade_duration = 500
 
 // Enable background overlay?
 // "true" or "false"
@@ -99,7 +100,7 @@ config.music_enable = true
 
 // Display current music name?
 // "true" or "false"
-config.music_show = true
+config.music_show = false
 
 // Music playlist
 // Add as many youtube ids/urls or audio files you want
@@ -108,20 +109,20 @@ config.music_show = true
 // (Place the audio files in the music folder)
 config.music_playlist = [
 	{
-		name: "Jason Shaw - Sideways Samba - Audionautix.com",
-		file: "sideways_samba.ogg",
+		name: "Star Wars: Duel of The Fates | TWO STEPS FROM HELL STYLE",
+		youtube: "https://www.youtube.com/watch?v=PT7-JdKhzcU",
 	},
 	{
-		name: "Devil Survivor 2 - Exploration",
-		youtube: "https://www.youtube.com/watch?v=Zyu-BSdma3g",
+		name: "Star Wars: Bo-Katan Theme | EPIC VERSION",
+		youtube: "https://www.youtube.com/watch?v=jZ2R9mgJwug",
 	},
 	{
-		name: "VA-11 Hall-A - Every Day Is Night",
-		youtube: "https://youtu.be/H-AfGh8gmiQ",
+		name: "Star Wars: General Grievous Epic Theme | Two Steps From Hell Style",
+		youtube: "https://www.youtube.com/watch?v=H1wTd6BEawU",
 	},
 	{
-		name: "Sonic Mania - Comfort Zone",
-		youtube: "f4CBQ9nnQSY",
+		name: "Up is Down & Battle of The Heroes | EPIC VERSION",
+		youtube: "https://www.youtube.com/watch?v=GBPDBYS5w0g",
 	},
 ]
 
@@ -131,7 +132,7 @@ config.music_random_order = true
 
 // Music volume
 // Choose a value between 0 (quietest) and 100 (loudest)
-config.music_volume = 15
+config.music_volume = 30
 
 // Use Gmod volume for the music instead of manual volume
 config.music_gmod_volume = true
@@ -142,9 +143,9 @@ config.messages_enable = true
 
 // Enter your custom messages below
 config.messages_list = [
-	"Welcome to SleekLoad!",
-	"Customize your loading screen by editing the config file",
-	"Enjoy!",
+	"Bienvenido a Quimera!",
+	"Recuerda Utilizar !discord para entrar a este y !reglas para evitar ser sancionado",
+	"¿Sabias que el servidor anteriormente se iba a llamar Guri Networks?",
 ]
 
 // Random message order?
@@ -153,11 +154,11 @@ config.messages_random_order = false
 
 // Delay between message changes
 // in milliseconds
-config.messages_delay = 5000
+config.messages_delay = 1000
 
 // Messages fade duration
 // in milliseconds
-config.messages_fade_duration = 1000
+config.messages_fade_duration = 5000
 
 // Show errors inside Garry's Mod?
 // Can be useful for finding errors
